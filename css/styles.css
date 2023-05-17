@@ -1,3 +1,32 @@
-body {
-  font-family: "Caveat";
+h1 {
+  font-family: "caveat";
+  font-size: 96px;
+}
+
+h2 {
+  font-family: monospace;
+  font-size: 30px;
+}
+
+nav {
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.navbar-name {
+  font-family: "caveat";
+  font-size: 36px;
+}
+
+.container {
+  margin: 150px auto;
+}
+
+.intro-text {
+  text-align: center;
+}
+
+.intro-text p {
+  font-family: monospace;
+  font-size: 30px;
 }
