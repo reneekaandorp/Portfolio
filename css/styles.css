@@ -32,9 +32,30 @@ nav {
 }
 
 .computer-picture {
-  border-radius: 4px;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
 }
 
 .project-button {
   font-family: monospace;
+}
+
+@media (max-width: 900px) {
+  .computer-picture {
+    width: 300px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .intro-text p,
+  h2 {
+    font-size: 20px;
+  }
+
+  .intro-text {
+    margin-top: 40px;
+  }
 }
