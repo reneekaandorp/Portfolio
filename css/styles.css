@@ -23,7 +23,7 @@ p {
   font-size: 36px;
 }
 
-.container {
+.index-container {
   margin: 150px auto;
 }
 
@@ -48,6 +48,10 @@ p {
 
 .profile-picture {
   border-radius: 10px;
+}
+
+.about-h2 {
+  font-weight: bold;
 }
 
 @media (max-width: 900px) {
