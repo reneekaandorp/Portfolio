@@ -13,6 +13,11 @@ nav {
   font-size: 20px;
 }
 
+p {
+  font-family: monospace;
+  font-size: 18px;
+}
+
 .navbar-name {
   font-family: "caveat";
   font-size: 36px;
@@ -39,6 +44,10 @@ nav {
 
 .project-button {
   font-family: monospace;
+}
+
+.profile-picture {
+  border-radius: 10px;
 }
 
 @media (max-width: 900px) {
