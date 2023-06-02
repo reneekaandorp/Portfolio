@@ -22,6 +22,33 @@ p {
   font-size: 18px;
 }
 
+footer a {
+  margin: 0 20px;
+  color: black;
+  background-color: #f8f9fa;
+  font-size: 30px;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: all 100ms ease-in-out;
+}
+
+.email-icon {
+  padding: 10px 10px 10px 15px;
+}
+
+.linkedin-icon {
+  padding: 10px 10px 10px 15px;
+}
+
+.github-icon {
+  padding: 10px 15px;
+}
+
+footer a:hover {
+  color: #f8f9fa;
+  background-color: black;
+}
+
 .navbar-name {
   font-family: "caveat";
   font-size: 36px;
@@ -60,6 +87,15 @@ p {
 
 .content-container img:hover {
   transform: scale(1.1);
+}
+
+.contact-container p {
+  font-size: 20px;
+}
+
+.paper-plane {
+  font-size: 70px;
+  text-align: center;
 }
 
 @media (max-width: 900px) {
