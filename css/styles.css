@@ -98,6 +98,10 @@ footer a:hover {
   text-align: center;
 }
 
+small {
+  font-family: monospace;
+}
+
 @media (max-width: 900px) {
   .computer-picture {
     width: 300px;
